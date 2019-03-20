@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Guitar Helper</title>
+  <link rel="icon" type="image/png" href="favicon.png">
 <style>
   * {
     box-sizing: border-box;
@@ -124,7 +125,6 @@ function draw() {
   const matches = pattern.map(function(offset) {
     return (parseInt(formKey.value) + offset) % notes.length;
   });
-  console.log(matches, formKey.value);
   strings.forEach(function(note, stringIndex) {
     const tr = el("tr");
     const openIndex = notes.indexOf(note);
