@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "import/first": 0,
+      "no-unused-vars" : [1, {"args" : "none"}]
+    }
+  }

@@ -1,5 +1,5 @@
 # guitar-helper
 
-Showing intervals on a fretboard for patterns
+Personal guitar practice assistant
 
 https://ryanantonydunn.github.io/guitar-helper/
